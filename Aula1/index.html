@@ -1,31 +1,87 @@
-<html>
-    <head>  </head>
-    <body>
-        <!--- Este é um comentário  -->
-        <!--- H1 ate o H6 é utilizado para titulo --->
-        <h1>Minha página em HTML</h1> 
-        <h2>Minha página em HTML</h2> 
-        <h3>Minha página em HTML</h3> 
-        <h4>Minha página em HTML</h4> 
-        <h5>Minha página em HTML</h5> 
-        <h6>Minha página em HTML</h6> 
-        <p>Ola esta é uma página em HTML!!</p>
-        <p>É atualizada em tempo real!</p>
-        <!-- A Tag <p> é utilizado para parágrafo -->
-        <ol>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-        </ol>
-        <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-        </ul>
-        </body>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Filmes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      padding: 20px;
+    }
 
+    h1 {
+      text-align: center;
+    }
+
+    ol {
+      list-style: decimal;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 40px;
+    }
+
+    img {
+      display: block;
+      margin: 10px 0;
+      border-radius: 8px;
+    }
+
+    .descricao {
+      max-width: 600px;
+      background: #fff;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <h1>Filmes do Homem-Aranha</h1>
+
+  <ol>
+    <li>
+      <strong>Homem-Aranha: De Volta ao Lar (2017)</strong><br>
+      <img src="img/de volta ao lar.jpg" alt="Homem-Aranha: De Volta ao Lar" width="300">
+      <p class="descricao">
+        Depois de lutar ao lado dos Vingadores em Guerra Civil, Peter Parker tenta equilibrar a vida de adolescente com a de herói em Nova York. Quando o vilão Abutre surge traficando armas alienígenas, Peter precisa provar que é mais que um “amigão da vizinhança”.
+      </p>
+    </li>
+
+    <li>
+      <strong>Homem-Aranha: Longe de Casa (2019)</strong><br>
+      <img src="img/longe de casa.jpg" alt="Homem-Aranha: Longe de Casa" width="300">
+      <p class="descricao">
+        Após os eventos de Ultimato, Peter viaja para a Europa com seus colegas. Sua viagem é interrompida quando surge Mysterio, um suposto aliado que esconde intenções perigosas.
+      </p>
+    </li>
+
+    <li>
+      <strong>Homem-Aranha: Sem Volta para Casa (2021)</strong><br>
+      <img src="img/sem voltra pra casa.jpg" alt="Homem-Aranha: Sem Volta para Casa" width="300">
+      <p class="descricao">
+        Quando sua identidade é revelada, Peter pede ajuda ao Doutor Estranho. O feitiço abre portais para o multiverso, trazendo vilões e outros Homens-Aranha de universos diferentes.
+      </p>
+    </li>
+
+    <li>
+      <strong>Homem-Aranha no Aranhaverso (2018)</strong><br>
+      <img src="img/aranhaverso.jpg" alt="Homem-Aranha no Aranhaverso" width="300">
+      <p class="descricao">
+        Miles Morales, um adolescente, ganha poderes de aranha e conhece versões alternativas do herói. Juntos, eles precisam salvar suas realidades de uma ameaça interdimensional.
+      </p>
+    </li>
+
+    <li>
+      <strong>Homem-Aranha: Através do Aranhaverso (2023)</strong><br>
+      <img src="img/aranhaverso2.jpg" alt="Homem-Aranha: Através do Aranhaverso" width="300">
+      <p class="descricao">
+        Miles reencontra Gwen Stacy e descobre uma sociedade secreta de Homens-Aranha de todo o multiverso. Um novo vilão ameaça destruir tudo, e Miles precisa escolher seu próprio destino.
+      </p>
+    </li>
+  </ol>
+</body>
 </html>
