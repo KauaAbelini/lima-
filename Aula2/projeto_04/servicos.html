@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizzaria Mohamed - Serviços</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #000; /* fundo preto */
+      color: #fff; /* texto branco */
+      line-height: 1.6;
+    }
+
+    .servicos {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 40px;
+      border-radius: 15px;
+      background: rgba(255, 255, 255, 0.05);
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+      text-align: center;
+    }
+
+    .servicos h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      background: linear-gradient(to right, green, white, red);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .linha-italia {
+      height: 8px;
+      border-radius: 5px;
+      margin: 25px auto;
+      max-width: 200px;
+      background: linear-gradient(to right, green, white, red);
+    }
+
+    .lista-servicos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.07);
+      padding: 20px;
+      border-radius: 12px;
+      border: 3px solid transparent;
+      background-clip: padding-box, border-box;
+      background-origin: border-box;
+      background-image: 
+        linear-gradient(#000, #000), /* fundo preto por dentro */
+        linear-gradient(to right, green, white, red); /* borda degradê Itália */
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    }
+
+    .card h2 {
+      margin-bottom: 15px;
+      color: #fff;
+      font-size: 1.5em;
+    }
+
+    .card p {
+      font-size: 1.1em;
+      color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <section class="servicos">
+    <h1>Nossos Serviços</h1>
+    <div class="linha-italia"></div>
+
+    <p>Na <strong>Pizzaria Mohamed</strong>, oferecemos muito mais do que pizzas. Confira os serviços que tornam a sua experiência completa:</p>
+
+    <div class="lista-servicos">
+      <div class="card">
+        <h2>🍕 Pizzas Artesanais</h2>
+        <p>Massa leve, fermentação natural e ingredientes frescos que garantem sabor incomparável.</p>
+      </div>
+
+      <div class="card">
+        <h2>🚗 Delivery Rápido</h2>
+        <p>Receba sua pizza quentinha em casa, com rapidez e qualidade no atendimento.</p>
+      </div>
+
+      <div class="card">
+        <h2>🍴 Atendimento no Salão</h2>
+        <p>Ambiente moderno e acolhedor, perfeito para reunir amigos e família.</p>
+      </div>
+
+      <div class="card">
+        <h2>🎉 Eventos Especiais</h2>
+        <p>Oferecemos pacotes para aniversários, confraternizações e celebrações especiais.</p>
+      </div>
+    </div>
+    <a href="http://localhost/meusite.com.br/HTML3/Aula2/projeto_04/menu.html" class="botao">Voltar</a>
+
+    <div class="linha-italia"></div>
+  </section>
+</body>
+</html>

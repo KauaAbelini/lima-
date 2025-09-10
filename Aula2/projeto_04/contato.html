@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizzaria Mohamed - Contato</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #000; /* fundo preto */
+      color: #fff; /* texto branco */
+      line-height: 1.6;
+    }
+
+    .contato {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 40px;
+      border-radius: 15px;
+      background: rgba(255, 255, 255, 0.05); /* leve transparência */
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+      text-align: center;
+    }
+
+    .contato h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      background: linear-gradient(to right, green, white, red);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .linha-italia {
+      height: 8px;
+      border-radius: 5px;
+      margin: 25px auto;
+      max-width: 200px;
+      background: linear-gradient(to right, green, white, red);
+    }
+
+    .info {
+      margin: 20px 0;
+      font-size: 1.2em;
+    }
+
+    form {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input, textarea {
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+    }
+
+    input:focus, textarea:focus {
+      outline: 2px solid red;
+    }
+
+    button, .btn {
+      background: linear-gradient(to right, green, white, red);
+      border: none;
+      padding: 14px;
+      border-radius: 8px;
+      font-size: 1.1em;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+      text-decoration: none;
+      color: black;
+      text-align: center;
+    }
+
+    button:hover, .btn:hover {
+      opacity: 0.8;
+    }
+
+    /* Adiciona um pequeno espaço entre o botão enviar e voltar */
+    .btn {
+      margin-top: 15px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <section class="contato">
+    <h1>Contato</h1>
+    <div class="linha-italia"></div>
+
+    <div class="info">
+      <p>📍 Endereço: Rua das Pizzas, 123 - Centro</p>
+      <p>📞 Telefone: (11) 99999-9999</p>
+      <p>📧 E-mail: contato@pizzeriamohamed.com.br</p>
+      <p>🕒 Horário: Todos os dias, das 18h às 23h</p>
+    </div>
+
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <textarea rows="5" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar Mensagem</button>
+    </form>
+
+    <!-- Botão voltar estilizado igual -->
+    <a href="http://localhost/meusite.com.br/HTML3/Aula2/projeto_04/menu.html" class="btn">Voltar</a>
+
+    <div class="linha-italia"></div>
+  </section>
+</body>
+</html>

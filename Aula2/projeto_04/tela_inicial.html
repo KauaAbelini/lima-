@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizzaria</title>
+  <style>
+    body {
+      color: rgb(255, 0, 0);
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      height: 100vh;
+
+      /* Fundo da Itália */
+      background-image: url("https://blog.celebritycruises.com.br/wp-content/uploads/2019/05/O-que-fazer-em-veneza-a-noite-scaled.jpg"); 
+      background-size: cover;   /* cobre toda a tela */
+      background-position: center; /* centraliza */
+      background-attachment: fixed; /* fica fixo ao rolar */
+    }
+
+    h1 {
+      margin-top: 50px;
+      font-size: 3em;
+      color: white;
+      text-shadow: 2px 2px 8px black; /* deixa mais visível */
+    }
+
+    h2 {
+      margin-bottom: 30px;
+      color: white;
+      text-shadow: 1px 1px 6px black;
+    }
+
+    hr {
+      border: none;
+      height: 8px;
+      margin: 5px auto;
+      max-width: 500px;
+    }
+
+    .linha-verde { background-color: rgb(4, 192, 22); }
+    .linha-branca { background-color: rgb(255, 255, 255); }
+    .linha-vermelha { background-color: rgb(255, 0, 0); }
+
+    .botao {
+      display: inline-block;
+      margin: 30px auto;
+      padding: 14px 28px;
+      font-size: 1.2em;
+      font-weight: bold;
+      text-decoration: none;
+      color: black;
+      border-radius: 8px;
+      background: linear-gradient(to right, green, white, red);
+      transition: transform 0.3s, opacity 0.3s, box-shadow 0.3s;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    .botao:hover {
+      transform: translateY(-3px);
+      opacity: 0.9;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    }
+
+    .imagem-principal {
+      display: block;
+      margin: 20px auto;
+      width: 400px;
+      height: 400px;
+      border-radius: 15px;
+      object-fit: cover;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    }
+  </style>
+</head>
+<body>
+  <h1>PIZZARIA MOHAMED</h1>
+  <h2><b>A melhor pizza da região!!!</b></h2>
+
+  <hr class="linha-verde">
+  <hr class="linha-branca">
+  <hr class="linha-vermelha">
+
+  <a href="http://localhost/meusite.com.br/HTML3/Aula2/projeto_04/menu.html" class="botao">Ir para o menu</a>
+
+  <!-- renomeie a imagem no seu PC para algo simples, ex: amir.png -->
+  <img src="ChatGPT Image 3 de set. de 2025, 10_48_48.png" alt="AMIR" class="imagem-principal">
+</body>
+</html>
