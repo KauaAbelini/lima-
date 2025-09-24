@@ -1,0 +1,96 @@
+/* Estilos Gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-top: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+/* Ativação do flex para todos os conteiners */
+/* Container Flex e Itens Flex */
+.container-flex {
+    display: flex;
+    background-color: rgb(25, 0, 255);
+    color: white;
+    gap: 10px; /* Espaçamento entre os itens */
+}
+.item-flex {
+    background-color: rgb(255, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Direção dos Itens Flex */
+.direcao-linha {
+    flex-direction: row; /* Padrão: itens em linha */
+}
+
+.direcao-coluna {
+    flex-direction: column; /* Itens em coluna */
+}
+
+.wrap {
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+}
+
+.nowrap {
+    flex-wrap: nowrap; /* Itens não quebram, permanecem em uma única linha */
+}
+
+.justificar-inicio {
+    justify-content: start; /* Itens alinhados ao início */
+}
+
+.justificar-fim {
+    justify-content: end; /* Itens alinhados ao fim */
+}
+
+.justificar-centro {
+    justify-content: center; /* Itens centralizados */
+}
+
+.justificar-space-between {
+    justify-content: space-between; /* Espaçamento igual entre os itens */
+}
+
+.justificar-space-around {
+    justify-content: space-around; /* Espaçamento igual ao redor dos itens */
+}
+
+.justificar-space-evenly {
+    justify-content: space-evenly; /* Espaçamento igual entre e ao redor dos itens */
+}
+
+.alinhar-items .container-flex{
+    height: 300px; /* Altura do container para visualização do alinhamento */
+}
+
+.alinhar-stretch {
+    align-items: stretch; /* Itens esticam para preencher o container */
+}
+
+.alinhar-inicio {
+    align-items: start; /* Itens alinhados ao início do eixo cruzado */
+}
+
+.alinhar-fim {
+    align-items: end; /* Itens alinhados ao fim do eixo cruzado */
+}
+
+.alinhar-centro {
+    align-items: center; /* Itens centralizados no eixo cruzado */
+}
+
+.alinhar-baseline {
+    align-items: baseline; /* Itens alinhados pela linha de base do texto */
+}
